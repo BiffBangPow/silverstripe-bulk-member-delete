@@ -1,0 +1,9 @@
+---
+Name: bulkdeleteroutes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'bbp-bulkdelete': 'BiffBangPow\BulkMemberDelete\Control\BulkActionController'

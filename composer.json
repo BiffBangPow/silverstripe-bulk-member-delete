@@ -20,9 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "BiffBangPow\\Extension\\": "src/"
+      "BiffBangPow\\BulkMemberDelete\\": "src/"
     }
   },
   "extra": {
+      "expose": [
+          "client/dist"
+      ]
   }
 }

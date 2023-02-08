@@ -4,4 +4,4 @@ Name: bbp-memberadminextension
 
 SilverStripe\Admin\SecurityAdmin:
   extensions:
-    - BiffBangPow\Extension\SecurityAdminExtension
+    - BiffBangPow\BulkMemberDelete\Extension\SecurityAdminExtension
